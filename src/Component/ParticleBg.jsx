@@ -385,7 +385,7 @@ const ParticleBg = () => {
                             "close": true,
                             "fill": true,
                             "options": {},
-                            "type": "star"
+                            "type": "circle"
                         },
                         "size": {
                             "random": {

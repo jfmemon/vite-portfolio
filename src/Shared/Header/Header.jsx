@@ -26,7 +26,7 @@ const Header = () => {
                 className="p-1 font-semibold"
             >
                 <Link to="/about" className="flex items-center justify-center">
-                    ABOUT ME
+                    ABOUT
                 </Link>
             </Typography>
             <Typography
@@ -39,15 +39,8 @@ const Header = () => {
             <Typography
                 className="p-1 font-semibold"
             >
-                <Link to="/resume" className="flex items-center justify-center">
-                    RESUME
-                </Link>
-            </Typography>
-            <Typography
-                className="p-1 font-semibold"
-            >
-                <Link to="/portfolio" className="flex items-center justify-center">
-                    PORTFOLIO
+                <Link to="/skills" className="flex items-center justify-center">
+                    PROJECTS
                 </Link>
             </Typography>
             <Typography
@@ -67,7 +60,7 @@ const Header = () => {
                     <Typography
                         className="py-1.5 text-2xl font-bold text-white"
                     >
-                        PORTFOLIO.
+                        EMON.dev
                     </Typography>
                     <div className="flex items-center text-center gap-4">
                         <div className="mr-4 hidden lg:block">{navList}</div>
