@@ -3,8 +3,7 @@ import Main from "../Layouts/Main";
 import Home from "../Pages/Home/Home";
 import About from "../Pages/About/About";
 import Skills from "../Pages/Skills/Skills";
-import Resume from "../Pages/Resume/Resume";
-import Portfolio from "../Pages/Portfolio/Portfolio";
+import Projects from "../Pages/Projects/Projects";
 import Contact from "../Pages/Contact/Contact";
 
 export const router = createBrowserRouter([
@@ -25,12 +24,8 @@ export const router = createBrowserRouter([
                 element: <Skills></Skills>
             },
             {
-                path: "resume",
-                element: <Resume></Resume>
-            },
-            {
-                path: "portfolio",
-                element: <Portfolio></Portfolio>
+                path: "projects",
+                element: <Projects></Projects>
             },
             {
                 path: "contact",

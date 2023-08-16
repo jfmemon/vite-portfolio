@@ -39,7 +39,7 @@ const Header = () => {
             <Typography
                 className="p-1 font-semibold"
             >
-                <Link to="/skills" className="flex items-center justify-center">
+                <Link to="/projects" className="flex items-center justify-center">
                     PROJECTS
                 </Link>
             </Typography>
