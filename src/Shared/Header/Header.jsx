@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Menu from '../../Component/Menu';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -8,7 +9,7 @@ const Header = () => {
         <nav className="bg-black">
             <div className="max-w-7xl mx-auto flex items-center justify-between h-16 px-4">
                 <div className="flex-shrink-0 font-bold tracking-wider">
-                    <h3 className='text-white text-2xl'>EMON.dev</h3>
+                    <Link to="/" className='text-white text-2xl'><span className='text-sky-500'>EMON</span>.dev</Link>
                 </div>
                 <div className="hidden md:block">
                     <Menu />

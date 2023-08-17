@@ -11,8 +11,8 @@ const Home = () => {
                         <img src={image} className="max-w-sm rounded-lg shadow-2xl" />
                     </div>
                 </div>
-                <div className='w-1/3'>
-                    <h1 className="text-5xl font-bold">MERN Stack Developer</h1>
+                <div className='lg:w-1/3'>
+                    <h1 className="text-5xl font-bold"><span className='text-sky-500'>MERN</span> Stack Developer</h1>
                     <p className="py-6">Hi, I'm Md Jannatul Ferdous Emon. A passionate MERN Stack Developer based in Dhaka, Bangladesh.📍</p>
                     <div className="flex gap-3">
                         <Link to="https://www.linkedin.com/in/md-jannatul-ferdous-emon-108100180/" className='text-3xl'><FaLinkedin /></Link>

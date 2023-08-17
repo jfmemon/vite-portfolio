@@ -5,7 +5,7 @@ const About = () => {
             <div className="hero lg:mt-14">
                 <div className="hero-content flex-col lg:flex-row lg:gap-20">
                     <img src={aboutImage} className="max-w-md rounded-lg shadow-2xl hover:scale-110 transition duration-500 cursor-pointer" />
-                    <div className='w-1/3'>
+                    <div className='lg:w-1/3 sm:text-center lg:text-start'>
                         <h3 className="text-2xl font-bold text-red-400">About Me</h3>
                         <h3 className='text-3xl font-bold mt-4'>A dedicated MERN Stack Developer
                             based in Dhaka, Bangladesh 📍</h3>
