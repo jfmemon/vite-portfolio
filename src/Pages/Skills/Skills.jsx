@@ -49,10 +49,6 @@ const Skills = () => {
                         <p>Node JS</p>
                         <progress className="progress progress-warning w-56 bg-white" value="25" max="100"></progress>
                     </div>
-                    <div>
-                        <p>Next JS</p>
-                        <progress className="progress progress-warning bg-white w-56" value="30" max="100"></progress>
-                    </div>
                 </div>
                 <div className="flex flex-col items-center">
                     <p className="font-semibold text-2xl mb-5 underline decoration-sky-500">Database</p>
