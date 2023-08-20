@@ -5,6 +5,12 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
+
+    const hideMobileMenu = () => {
+        setShowMobileMenu(false); // Function to hide the mobile menu
+    };
+
+
     return (
         <nav className="bg-black">
             <div className="max-w-7xl mx-auto flex items-center justify-between h-16 px-4">
@@ -33,7 +39,7 @@ const Header = () => {
                 </button>
             </div>
             <div className="md:hidden">
-                {showMobileMenu && <Menu />}
+                {showMobileMenu && <Menu hideMobileMenu={hideMobileMenu} />}
             </div>
         </nav>
     );
