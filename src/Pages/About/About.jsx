@@ -9,7 +9,7 @@ const About = () => {
                         <h3 className="text-2xl font-bold text-red-400">About Me</h3>
                         <h3 className='text-3xl font-bold mt-4'>A dedicated MERN Stack Developer
                             based in Dhaka, Bangladesh 📍</h3>
-                        <p className="py-6">As a Junior MERN Stack Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Bootstrap, Tailwind, Node JS, Express JS, Next JS, MongoDB, Firebase, JWT. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.</p>
+                        <p className="py-6">As a Junior MERN Stack Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Bootstrap, Tailwind, Node JS, Express JS, MongoDB, Firebase, JWT. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.</p>
                     </div>
                 </div>
             </div>
