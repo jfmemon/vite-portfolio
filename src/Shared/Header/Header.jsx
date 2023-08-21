@@ -12,7 +12,7 @@ const Header = () => {
 
 
     return (
-        <nav className="bg-black">
+        <nav className="bg-black sticky top-0 z-50">
             <div className="max-w-7xl mx-auto flex items-center justify-between h-16 px-4">
                 <div className="flex-shrink-0 font-bold tracking-wider">
                     <Link to="/" className='text-white text-2xl'><span className='text-sky-500'>EMON</span>.dev</Link>

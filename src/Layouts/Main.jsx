@@ -5,7 +5,7 @@ const Main = () => {
     return (
         <div>
             <Header></Header>
-            <Outlet></Outlet>
+            <Outlet className="relative"></Outlet>
         </div>
     );
 };

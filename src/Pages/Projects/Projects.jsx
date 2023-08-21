@@ -5,7 +5,7 @@ const Projects = () => {
         <div>
             <h3 className='text-2xl text-center text-white font-bold my-10 underline decoration-sky-500'>Fullstack project</h3>
             <div className='m-5 flex flex-col items-center text-white gap-10'>
-                <div className="card card-side border shadow-xl w-3/4 grid lg:grid-cols-2 grid-cols-1 rounded-none">
+                <div className="card card-side border shadow-xl lg:w-3/4 grid lg:grid-cols-2 grid-cols-1 rounded-none">
                     <img className='object-contain w-94 h-auto p-3' src={image1} alt="Movie" />
                     <div className="card-body">
                         <h2 className="card-title text-red-400 text-2xl font-bold">Vromon (Tour & travel management system)</h2>
